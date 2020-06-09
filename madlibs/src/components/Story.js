@@ -7,3 +7,4 @@ const Story = () => {
         </div>
     )
 }
+export default Story;

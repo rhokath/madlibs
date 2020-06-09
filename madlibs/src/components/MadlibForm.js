@@ -26,7 +26,7 @@ const MadlibForm = () => {
     }
     return(
         <form onSubmit={handleSubmit}>
-            <label>person</label>
+            <label>person
             <input
             className={isActive? `isActive`: `notActive`}
             type='text'
@@ -35,6 +35,7 @@ const MadlibForm = () => {
             value={inputs.person}
             onChange={handleChange}
             />
+            </label>
             <label>
                 verb
                 <input
