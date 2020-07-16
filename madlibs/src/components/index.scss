@@ -1,7 +1,10 @@
 input{
     border: 1px solid red;
     padding: .5rem;
-    margin-top: 1rem;
+    margin-top: .5rem;
+    box-sizing: border-box;
+    display: block;
+    border-radius: .5rem;
 }
 input:focus{
     border-color: #007eff;
@@ -23,6 +26,7 @@ form{
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 .isActive{
     border: 3px solid yellow;
