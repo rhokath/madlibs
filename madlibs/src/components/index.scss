@@ -1,11 +1,21 @@
 input{
     border: 1px solid red;
     padding: .5rem;
-    margin-top: 1rem;
+    margin-top: .5rem;
+    box-sizing: border-box;
+    display: block;
+    border-radius: .5rem;
+}
+input:focus{
+    border-color: #007eff;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+      0 0 0 3px rgba(0, 126, 255, 0.1);
+    outline: none;
 }
 label{
     border: 1px solid purple;
     display: block;
+    margin-bottom: .5rem;
 }
 form{
     border: 3px solid blue;
@@ -15,6 +25,8 @@ form{
     padding: 3.2rem; 
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 .isActive{
     border: 3px solid yellow;
@@ -30,4 +42,20 @@ form{
     height: auto;
     flex-direction: column;
 
+}
+button {
+    max-width: 15rem;
+    margin: 3.2rem 0;
+    padding: 1.2rem 2rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #08c;
+    color: #fff;
+    box-shadow:  0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+.story{
+    border: 2px dashed red;
+    max-width: 80%;
+    margin: 0 auto;
 }
